@@ -1,13 +1,13 @@
-####🏗️ Construction Sales Analytics – End-to-End Data Project
+#### 🏗️ Construction Sales Analytics – End-to-End Data Project
 
 
 
-###📌 Overview
+### 📌 Overview
 
-###📸 Dashboard Preview
+### 📸 Dashboard Preview
 Link imagen
 
-###📊 Key Metrics (2025)
+### 📊 Key Metrics (2025)
 - 💰 Total Revenue: $62,442,500
 - 🧾 Total Transactions: 1,000
 - 🎟️ Average Ticket: $62,442
@@ -25,14 +25,14 @@ Power BI (dashboarding)
 DAX (business logic)
 
 
-###🎯 Objective
+### 🎯 Objective
 
 The goal of this project is to showcase key data analysis skills by solving a realistic business scenario:
 
 How can a company understand its sales performance, top customers, product demand, and branch contribution using data?
 
 
-###🧠 Skills Demonstrated
+### 🧠 Skills Demonstrated
 
 Data generation & simulation
 Data cleaning (handling errors & inconsistencies)
@@ -45,7 +45,7 @@ DAX for business metrics
 Automated reporting (Python → PDF)
 
 
-###🔄 Data Pipeline
+### 🔄 Data Pipeline
 
 1. Data Generation (Python)
 2. Data Cleaning (Excel + Power Query)
@@ -55,7 +55,7 @@ Automated reporting (Python → PDF)
 6. Reporting (Automated PDF)
 
 
-###📂 Project Structure
+### 📂 Project Structure
 
 ```
 Proyecto_1/
@@ -72,9 +72,9 @@ Proyecto_1/
 ```
 
 
-###⚙️ Project Workflow
+### ⚙️ Project Workflow
 
-##1️⃣ Data Generation (Python)
+## 1️⃣ Data Generation (Python)
 
 A custom script generates synthetic sales data:
 
@@ -88,7 +88,7 @@ Outputs:
 sales.xlsx
 products.xlsx
 
-##2️⃣ Excel Automation (VBA Macro)
+## 2️⃣ Excel Automation (VBA Macro)
 
 A macro (FormatoTablaProducto.bas) was used to:
 
@@ -96,7 +96,7 @@ Standardize formatting
 Improve readability
 Prepare product data for analysis
 
-##3️⃣ Data Cleaning & Transformation (Power Query)
+## 3️⃣ Data Cleaning & Transformation (Power Query)
 
 Using Excel + Power Query:
 
@@ -105,26 +105,26 @@ Fixed data types
 Merged datasets (sales + products)
 Created a clean model → Libro_consolidado.xlsx
 
-##4️⃣ Exploratory Analysis (Excel)
+## 4️⃣ Exploratory Analysis (Excel)
 
 Three main analytical sheets were created:
 
-**📊 VentasTotales**
+# 📊 VentasTotales
 Total sales by branch
 % contribution per branch
-**📈 VentasTiempo**
+# 📈 VentasTiempo
 Monthly sales evolution (2025)
-**⭐ ClienteEstrella**
+# ⭐ ClienteEstrella
 Top customer of the year
 Identified using formulas like:
 XLOOKUP
 FILTER
 
-##5️⃣ Dashboard (Power BI)
+## 5️⃣ Dashboard (Power BI)
 
 An interactive dashboard was built using Libro_consolidado.xlsx.
 
-**Key Components:**
+# Key Components:
 🗺️ Map → Branch locations
 🥧 Pie charts:
 Sales by branch
@@ -135,7 +135,7 @@ Top customer (via DAX)
 📈 Monthly sales trend
 
 **🧮 Example DAX (Top Customer):**
-````
+```
 Top Cliente Texto =
 VAR TopTable =
     TOPN(
@@ -151,13 +151,13 @@ VAR Nombre = MAXX(TopTable, sales[customer_name])
 VAR Total = MAXX(TopTable, [Total])
 RETURN
     Nombre & " - $" & FORMAT(Total, "#,##0")
-````
+```
 
-##6️⃣ Automated Report (Python → PDF)
+## 6️⃣ Automated Report (Python → PDF)
 
 A Python script (Informe_P1.py) generates a professional PDF report.
 
-#📄 Report Structure:
+# 📄 Report Structure:
 **1. Cover Page**
 Title
 Date
@@ -183,7 +183,7 @@ Product
 Month
 
 
-###📊 Key Insights (Example)
+### 📊 Key Insights (Example)
 
 - The top 3 products (Fierros, Madera, Alambres) account for over 50% of total revenue
 - Sales peak between April and September, indicating seasonal demand patterns
@@ -191,7 +191,7 @@ Month
 - A small group of customers contributes disproportionately to total sales (top 10 customers)
 
 
-###⚙️REQUIREMENTS
+## #⚙️REQUIREMENTS
 
 pandas
 matplotlib
@@ -199,19 +199,19 @@ openpyxl
 reportlab
 
 
-###🚀 How to Run
+### 🚀 How to Run
 
-##1. Clone the repository**
+## 1. Clone the repository**
 git clone https://github.com/KlausScherer/sales_analytics_report.git
 
-##2. Install dependencies**
+## 2. Install dependencies**
 pip install pandas matplotlib openpyxl
 
-##3. Run the report generator**
+## 3. Run the report generator**
 python Informe_P1.py
 
 
-###💡 Why This Project Matters
+### 💡 Why This Project Matters
 
 This project reflects a real-world analytics workflow:
 
@@ -228,7 +228,7 @@ Translate data into insights
 Communicate results effectively
 
 
-###🔮 Future Improvements
+### 🔮 Future Improvements
 
 Add SQL database integration
 Deploy dashboard to Power BI Service
@@ -236,11 +236,11 @@ Add forecasting (time series models)
 Include customer segmentation (RFM analysis)
 
 
-###👤 Author
+### 👤 Author
 
 Klaus Walter Scherer Iglesias
 
 
-###⭐ Final Note
+### ⭐ Final Note
 
 This is not just a data project — it's a complete analytical pipeline, designed to reflect how data is actually used in business environments.
