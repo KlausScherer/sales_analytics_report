@@ -135,6 +135,7 @@ Top customer (via DAX)
 📈 Monthly sales trend
 
 **🧮 Example DAX (Top Customer):**
+````
 Top Cliente Texto =
 VAR TopTable =
     TOPN(
@@ -150,6 +151,7 @@ VAR Nombre = MAXX(TopTable, sales[customer_name])
 VAR Total = MAXX(TopTable, [Total])
 RETURN
     Nombre & " - $" & FORMAT(Total, "#,##0")
+````
 
 ##6️⃣ Automated Report (Python → PDF)
 
