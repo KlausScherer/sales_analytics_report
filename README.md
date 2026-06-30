@@ -57,6 +57,7 @@ Automated reporting (Python → PDF)
 
 **📂 Project Structure**
 
+```
 Proyecto_1/
 │
 ├── Generador_aleatorio_datos.py   # Data simulation script
@@ -68,6 +69,7 @@ Proyecto_1/
 ├── products.xlsx                  # Raw products data
 ├── sales.xlsx                     # Raw sales data
 └── README.md
+```
 
 
 **⚙️ Project Workflow**
