@@ -1,0 +1,9 @@
+product_id,product_name,price_per_100kg,category,unit
+1,Cemento,7000,Materiales de construcción,100kg
+2,Ladrillos,5000,Materiales de construcción,100kg
+3,Arena,3000,Materiales de construcción,100kg
+4,Fierros,12000,Materiales de construcción,100kg
+5,Madera,9000,Materiales de construcción,100kg
+6,Yeso,4000,Materiales de construcción,100kg
+7,Alambres,8000,Materiales de construcción,100kg
+8,Grava,3500,Materiales de construcción,100kg
