@@ -5,7 +5,7 @@
 ## 📌 Overview
 
 ## 📸 Dashboard Preview
-Link imagen
+![Dashboard](images/dashboard.png)
 
 ## 📊 Key Metrics (2025)
 - 💰 Total Revenue: $62,442,500
