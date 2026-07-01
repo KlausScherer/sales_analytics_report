@@ -197,7 +197,7 @@ Month
 git clone https://github.com/KlausScherer/sales_analytics_report.git
 
 ### 2. Install dependencies**
-pip install pandas matplotlib openpyxl
+pip install pandas matplotlib openpyxl numpy seaborn faker
 
 ### 3. Run the report generator**
 python Informe_P1.py
