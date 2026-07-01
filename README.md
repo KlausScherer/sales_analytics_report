@@ -191,14 +191,6 @@ Month
 - A small group of customers contributes disproportionately to total sales (top 10 customers)
 
 
-## #⚙️REQUIREMENTS
-
-pandas
-matplotlib
-openpyxl
-reportlab
-
-
 ## 🚀 How to Run
 
 ### 1. Clone the repository**
