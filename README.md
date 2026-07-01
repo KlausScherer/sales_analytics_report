@@ -61,13 +61,13 @@ Automated reporting (Python → PDF)
 Proyecto_1/
 │
 ├── Generador_aleatorio_datos.py   # Data simulation script
-├── FormatoTablaProducto.bas       # Excel macro (formatting)
-├── Libro_consolidado.xlsx         # Cleaned & transformed dataset
-├── Informe_P1.py                  # Automated report generator (PDF)
-├── Informe_P1.pdf                 # Final report output
-├── DashboardP1.pbix               # Power BI dashboard
 ├── products.xlsx                  # Raw products data
 ├── sales.xlsx                     # Raw sales data
+├── FormatoTablaProducto.bas       # Excel macro (formatting)
+├── Libro_consolidado.xlsx         # Cleaned & transformed dataset
+├── DashboardP1.pbix               # Power BI dashboard
+├── Informe_P1.py                  # Automated report generator (PDF)
+├── Informe_P1.pdf                 # Final report output
 └── README.md
 ```
 
