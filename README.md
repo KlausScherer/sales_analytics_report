@@ -211,6 +211,16 @@ pip install pandas matplotlib openpyxl
 python Informe_P1.py
 
 
+## 💼 Business Impact
+
+This analysis enables:
+
+- Identification of top-performing products
+- Better inventory planning
+- Customer segmentation opportunities
+- Data-driven decision making across branche
+
+
 ## 💡 Why This Project Matters
 
 This project reflects a real-world analytics workflow:
